@@ -9,7 +9,7 @@ window.sr = ScrollReveal();
 
 	}); 
 	sr.reveal('.flores', {
-		duration: 5000, //tiempo
+		duration: 3000, //tiempo
 		delay:500,
 	origin: 'top', //origen
 		distance: '-0' //distancia
