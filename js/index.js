@@ -674,7 +674,7 @@ function RomeroIbarbo() {
 }
 
 function TereVelazquezRivas() {
-    window.open("pases/TereVelazquezRivas.html", "_self");        
+    window.open("pases/VelazquezRivas.html", "_self");        
 }
 
 function RomeroVargas() {
@@ -750,8 +750,8 @@ function CarolinaSavedra() {
     window.open("pases/CarolinaSavedra.html", "_self");        
 }
 
-function CarolinaSavedra() {
-    window.open("pases/CarolinaSavedra.html", "_self");        
+function JuanCarlosGracianoEsparza() {
+    window.open("pases/JuanCarlosGracianoEsparza.html", "_self");        
 }
 
 function FelixLopez() {
@@ -2010,7 +2010,7 @@ function copiarCarolinaSavedra(){
   document.execCommand('paste');
 }
 
-function copiarCarolinaSavedra(){
+function copiarJuanCarlosGracianoEsparza(){
   var origen = document.getElementById('target84');
   var destino = document.getElementById('target10');
   var copyFrom = document.createElement("textarea");
