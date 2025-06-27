@@ -833,6 +833,30 @@ function PeraltaAlvarez() {
 function FloresVera() {
     window.open("pases/FloresVera.html", "_self");        
 }
+///////////////////////////////////
+function CelayaMeraz() {
+    window.open("pases/CelayaMeraz.html", "_self");        
+}
+function GracianoRosas() {
+    window.open("pases/GracianoRosas.html", "_self");        
+}
+function LetyyFam() {
+    window.open("pases/LetyyFam.html", "_self");        
+}
+function LuzMireyaLares() {
+    window.open("pases/LuzMireyaLares.html", "_self");        
+}
+
+function TereVelazquez() {
+    window.open("pases/TereVelazquez.html", "_self");        
+}
+function LuzMariaDelgadoR() {
+    window.open("pases/LuzMariaDelgadoR.html", "_self");        
+}
+
+function JavierEduardoHdzyFam() {
+    window.open("pases/JavierEduardoHdzyFam.html", "_self");        
+}
 
 function Inicio() {
     window.open("inicio.html", "_self");        
@@ -2351,6 +2375,108 @@ function copiarFloresVera(){
 
 function copiarInicio(){
   var origen = document.getElementById('target107');
+  var destino = document.getElementById('target10');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+/////////////////////////////////////////////////////////////
+function copiarCelayaMeraz(){
+  var origen = document.getElementById('target108');
+  var destino = document.getElementById('target10');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+ function copiarGracianoRosas(){
+  var origen = document.getElementById('target109');
+  var destino = document.getElementById('target10');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+ function copiarLetyyFam(){
+  var origen = document.getElementById('target110');
+  var destino = document.getElementById('target10');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+ function copiarLuzMireyaLares(){
+  var origen = document.getElementById('target111');
+  var destino = document.getElementById('target10');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+
+function copiarTereVelazquez(){
+  var origen = document.getElementById('target112');
+  var destino = document.getElementById('target10');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+
+function copiarLuzMariaDelgadoR(){
+  var origen = document.getElementById('target113');
+  var destino = document.getElementById('target10');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+
+function copiarJavierEduardoHdzyFam(){
+  var origen = document.getElementById('target114');
   var destino = document.getElementById('target10');
   var copyFrom = document.createElement("textarea");
   copyFrom.textContent = origen.value;
